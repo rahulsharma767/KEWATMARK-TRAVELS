@@ -2,9 +2,9 @@
 
 ### Your Journey. Our Commitment.
 
-A premium, modern and responsive frontend website designed for **Kewatmark Travels**, a Mumbai-based travel agency offering domestic and international travel services.
+A premium, modern and responsive travel agency website built for **KEWATMARK TRAVELS**, a Mumbai-based Tours & Travels business.
 
-The website is designed to provide a high-end travel experience with flight discovery, hotel booking, holiday packages, visa assistance and direct customer enquiries.
+The website is designed as a high-end travel platform where customers can discover and enquire about domestic and international flights, hotels, holiday packages, visa assistance and customized travel experiences.
 
 ---
 
@@ -12,62 +12,193 @@ The website is designed to provide a high-end travel experience with flight disc
 
 **KEWATMARK TRAVELS** is a Tours & Travels business based in Santacruz West, Mumbai.
 
-### Our Services
+Our goal is to make travel planning simple, convenient and personalized by bringing multiple travel services together in one premium digital experience.
 
-- ✈️ Domestic Flight Booking
-- 🌎 International Flight Booking
-- 🏨 Hotel Booking
-- 🛂 Visa Assistance
-- 🧳 Domestic Tour Packages
-- 🌍 International Tour Packages
-- 💑 Honeymoon Packages
-- 👨‍👩‍👧 Family Holidays
-- 💼 Corporate Travel
-- 🚕 Airport Transfers
-- 🗺️ Customized Travel Planning
+### ✈️ Our Services
 
-### Our Promise
-
-> **Flights to Anywhere. Prices You'll Love.**
-
-We help travellers find suitable, competitive and budget-friendly travel options with personalized assistance.
+- Domestic Flight Booking
+- International Flight Booking
+- Hotel Booking
+- Visa Assistance
+- Domestic Tour Packages
+- International Tour Packages
+- Customized Travel Packages
+- Honeymoon Packages
+- Family Holidays
+- Corporate Travel
+- Airport Transfers
+- Travel Consultation
+- Customized Itineraries
 
 ---
 
-# ✨ Features
+## ✨ Our Promise
 
-### ✈️ Flight Booking Interface
+> **Flights to Anywhere. Prices You'll Love.**
+
+We help travellers find suitable and competitive travel options for both domestic and international journeys.
+
+Whether you are planning a quick domestic trip, an international holiday, a honeymoon, a family vacation or a business journey, Kewatmark Travels provides personalized travel assistance.
+
+---
+
+# 🚀 Website Features
+
+## ✈️ Domestic & International Flights
+
+The website provides an interactive flight-search experience for:
 
 - One Way
 - Round Trip
 - Multi City
 - Domestic Flights
 - International Flights
-- Traveller selection
-- Cabin class selection
-- Price filtering
-- Airline filtering
-- Stops filtering
-- Departure-time filtering
-- Cheapest / Fastest / Recommended sorting
 
-> Flight information currently uses frontend demo/mock data.
+### Flight Search Includes
 
-### 🏨 Hotel Booking
+- From
+- To
+- Departure Date
+- Return Date
+- Travellers
+- Cabin Class
+- Economy
+- Premium Economy
+- Business
+- First Class
 
-- Hotel discovery
-- Hotel images
-- Locations
-- Ratings
+### Flight Results
+
+The frontend includes dynamic demo flight results with:
+
+- Airline
+- Departure time
+- Arrival time
+- Duration
+- Stops
+- Origin
+- Destination
+- Baggage
+- Price
+- View Fare
+- Enquire / Book
+
+### Flight Filters
+
+Users can filter results by:
+
+- Price
+- Airline
+- Number of Stops
+- Departure Time
+- Duration
+
+### Flight Sorting
+
+Users can sort flights by:
+
+- Cheapest
+- Fastest
+- Recommended
+
+> **Important:** Flight information in the current frontend is demo/mock data and is not connected to a live airline or flight-booking API.
+
+---
+
+# 🏨 Hotel Booking
+
+Discover hotels and stays through a premium hotel interface.
+
+Hotel cards include:
+
+- Hotel Image
+- Hotel Name
+- Destination
+- Location
+- Star Rating
 - Amenities
-- Price per night
-- Hotel filtering
-- Destination filtering
-- Rating filtering
+- Price per Night
+- Hotel Type
+- View Hotel
+- Enquire
 
-### 🗺️ Tour Packages
+### Hotel Filters
 
-#### 🇮🇳 India
+- Destination
+- Price
+- Rating
+- Hotel Type
+
+The interface supports different types of stays including:
+
+- Luxury Hotels
+- Budget Hotels
+- Beach Resorts
+- Mountain Resorts
+- Boutique Hotels
+- City Hotels
+- Maldives Villas
+- International Hotels
+
+> Hotel availability and pricing currently use frontend demo data.
+
+---
+
+# 🧳 Domestic Tour Packages
+
+Explore destinations across India.
+
+### 🇮🇳 India Tour Series
+
+- Goa Series
+- Kashmir Series
+- Kerala Series
+- Himachal Series
+- Rajasthan Series
+- Andaman Series
+- Sikkim Series
+- Lakshadweep Series
+- Golden Triangle Series
+
+Each destination can include:
+
+- Destination Image
+- Package Count
+- Duration
+- Starting Price
+- Highlights
+- Inclusions
+- Enquiry CTA
+
+---
+
+# 🌎 International Tour Packages
+
+Explore international destinations through premium travel packages.
+
+### International Series
+
+- Dubai Series
+- Maldives Series
+- Bali Series
+- Thailand Series
+- Singapore Series
+- Europe Series
+- Switzerland Series
+- Azerbaijan Series
+- Georgia Series
+- Vietnam Series
+- Malaysia Series
+- Australia Series
+- Kenya Series
+
+---
+
+# 🌴 Popular Destinations
+
+The website contains a large destination discovery section featuring destinations such as:
+
+### India
 
 - Goa
 - Kashmir
@@ -77,26 +208,47 @@ We help travellers find suitable, competitive and budget-friendly travel options
 - Andaman
 - Sikkim
 - Lakshadweep
-- Golden Triangle
+- Jaipur
+- Udaipur
+- Mumbai
+- Delhi
+- Northeast India
 
-#### 🌎 International
+### International
 
 - Dubai
 - Maldives
 - Bali
-- Thailand
 - Singapore
+- Thailand
 - Europe
 - Switzerland
+- Paris
+- London
 - Azerbaijan
 - Georgia
 - Vietnam
 - Malaysia
 - Australia
 
-### 🛂 Visa Assistance
+Destination cards include:
 
-Visa assistance and documentation guidance for destinations including:
+- High-quality travel imagery
+- Destination name
+- Region
+- Short description
+- Explore button
+- Hover animations
+
+---
+
+# 🛂 Visa Assistance
+
+## Your Visa Journey, Simplified.
+
+Kewatmark Travels provides travel-related visa assistance and documentation guidance.
+
+### Visa Destinations
 
 - UAE / Dubai
 - USA
@@ -109,42 +261,309 @@ Visa assistance and documentation guidance for destinations including:
 - Japan
 - Azerbaijan
 
-**Note:** Kewatmark Travels does not guarantee visa approval. Visa decisions are made by the respective authorities.
+### Visa Assistance Includes
+
+- Application guidance
+- Documentation guidance
+- Process information
+- Travel consultation
+
+> **Important:** Kewatmark Travels does not guarantee visa approval. Visa decisions are made exclusively by the relevant government authorities or consulates.
 
 ---
 
-# 🎨 Design
+# 💑 Honeymoon Packages
 
-The website uses a premium travel-focused visual identity featuring:
+Premium honeymoon travel experiences can be promoted for destinations such as:
 
-- Deep navy
-- Royal blue
-- Sky blue
-- Gold accents
+- Maldives
+- Bali
+- Dubai
+- Switzerland
+- Paris
+- Thailand
+- Kashmir
+- Kerala
+- Goa
+
+Package cards can include:
+
+- Romantic stays
+- Hotel accommodation
+- Sightseeing
+- Transfers
+- Custom itinerary
+- Flight assistance
+
+---
+
+# 👨‍👩‍👧 Family Holidays
+
+Family-friendly travel packages can include:
+
+- Domestic holidays
+- International holidays
+- Resort stays
+- Sightseeing
+- Family activities
+- Airport transfers
+- Customized itineraries
+
+---
+
+# 💼 Corporate Travel
+
+Corporate travel assistance can include:
+
+- Business flights
+- International flights
+- Hotel booking
+- Airport transfers
+- Corporate itineraries
+- Group travel assistance
+
+---
+
+# 🗺️ Customized Travel Planner
+
+The website includes an interactive trip planner.
+
+Users can select:
+
+- Destination
+- Travel Date
+- Number of Travellers
+- Budget
+- Travel Style
+
+### Travel Styles
+
+- Budget
+- Comfort
+- Luxury
+- Adventure
+- Honeymoon
+- Family
+- Corporate
+
+The frontend generates a sample travel-plan interface based on the selected options.
+
+---
+
+# 🔥 Special Travel Offers
+
+The website includes promotional package cards such as:
+
+- Dubai Escape
+- Maldives Luxury
+- European Summer
+- Bali Paradise
+- Kashmir Winter
+- Thailand Explorer
+- Singapore Discovery
+- Azerbaijan Escape
+
+Offer cards can contain:
+
+- Destination
+- Image
+- Duration
+- Starting Price
+- Flight
+- Hotel
+- Transfers
+- Package Highlights
+- View Package
+
+> Prices and offers shown in the frontend are demo content unless connected to a live booking system.
+
+---
+
+# ⭐ Why Choose Kewatmark Travels?
+
+The website highlights:
+
+### Competitive Airfares
+
+Find suitable domestic and international flight options at competitive prices.
+
+### Domestic + International Travel
+
+Travel assistance for destinations across India and around the world.
+
+### Hotel Booking
+
+Options ranging from budget-friendly stays to premium hotels and resorts.
+
+### Visa Assistance
+
+Guidance with travel visa documentation and application requirements.
+
+### Personalized Service
+
+Speak directly with a travel expert for assistance.
+
+### Complete Travel Support
+
+Flights, hotels, tours, visa assistance and customized travel planning under one roof.
+
+---
+
+# 🎨 Premium UI / UX
+
+The website follows a premium travel-tech visual identity.
+
+### Design Features
+
+- Premium navy theme
+- Royal blue accents
+- Gold highlights
 - Cinematic travel imagery
-- Modern typography
-- Rounded cards
+- Large hero sections
 - Glassmorphism
-- Smooth animations
-- Interactive carousels
-- Responsive layouts
+- Rounded cards
+- Soft shadows
+- Premium typography
+- Smooth transitions
+- Destination carousels
+- Interactive cards
+- Responsive navigation
 - Floating WhatsApp button
 - Floating Call button
-- Enquiry modals
-- Interactive forms
+- Booking/enquiry modals
+- FAQ accordion
+- Animated counters
+- Scroll animations
+- Responsive layouts
 
 ---
 
-# 🛠️ Tech Stack
+# 📱 Responsive Design
+
+The website is designed for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+The mobile experience includes:
+
+- Hamburger navigation
+- Mobile-friendly forms
+- Responsive cards
+- Touch-friendly buttons
+- Mobile WhatsApp CTA
+- Mobile Call CTA
+- Horizontal destination scrolling
+- Responsive typography
+
+---
+
+# 💬 Customer Enquiry System
+
+The frontend includes enquiry forms for:
+
+- Flights
+- Hotels
+- Tours
+- Visa Assistance
+- Customized Trips
+
+### Enquiry Fields
+
+- Full Name
+- Mobile Number
+- Email
+- Destination
+- Travel Date
+- Number of Travellers
+- Message
+
+After submission, the frontend displays a confirmation message.
+
+> The current project does not send or store customer data because it is frontend-only.
+
+---
+
+# 📞 Direct Contact
+
+## Kewatmark Travels
+
+### Primary Contact
+
+**+91 77189 37742**
+
+### Additional Contact
+
+**+91 93214 92164**
+
+### Email
+
+**kewatmarktravels@gmail.com**
+
+### WhatsApp
+
+**+91 77189 37742**
+
+The website provides direct Call and WhatsApp CTAs.
+
+---
+
+# 📍 Business Address
+
+**Kewatmark Travels**
+
+Shambhoo Sheth Chawl  
+Gazdhar Bandh Road  
+Gobind Nagar  
+Santacruz West  
+Mumbai - 400054  
+Maharashtra, India
+
+---
+
+# 🏢 Business Information
+
+**Business Name:**  
+KEWATMARK TRAVELS
+
+**Nature of Business:**  
+TOURS & TRAVELS
+
+**Location:**  
+Santacruz West, Mumbai
+
+The business registration/intimation document provided for this project identifies the establishment as **KEWATMARK TRAVELS**, lists the nature of business as **TOURS & TRAVELS**, and gives the establishment address in Santacruz West, Mumbai. The document is dated **02.08.2026**. :contentReference[oaicite:0]{index=0}
+
+> Private identity-document information from the supplied registration materials is intentionally not displayed on the public website.
+
+---
+
+# 🛠️ Technology Stack
+
+This project is built using modern frontend technologies.
+
+### Core
 
 - React
 - Vite
-- JavaScript / JSX
-- Tailwind CSS
-- Framer Motion
-- Lucide React
+- JavaScript
+- JSX
 - HTML5
 - CSS3
+
+### Styling
+
+- Tailwind CSS
+
+### Animation
+
+- Framer Motion
+
+### Icons
+
+- Lucide React
 
 ---
 
@@ -154,8 +573,11 @@ The website uses a premium travel-focused visual identity featuring:
 kewatmark-travels/
 │
 ├── public/
+│   ├── images/
+│   └── assets/
 │
 ├── src/
+│   │
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
@@ -170,10 +592,10 @@ kewatmark-travels/
 │   │   ├── Testimonials.jsx
 │   │   ├── FAQ.jsx
 │   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
 │   │   ├── BookingModal.jsx
 │   │   ├── WhatsAppButton.jsx
-│   │   └── ScrollToTop.jsx
+│   │   ├── ScrollToTop.jsx
+│   │   └── Footer.jsx
 │   │
 │   ├── data/
 │   │   ├── flights.js
@@ -181,6 +603,7 @@ kewatmark-travels/
 │   │   ├── destinations.js
 │   │   ├── packages.js
 │   │   ├── visa.js
+│   │   ├── testimonials.js
 │   │   └── images.js
 │   │
 │   ├── App.jsx
@@ -191,4 +614,5 @@ kewatmark-travels/
 ├── index.html
 ├── package.json
 ├── package-lock.json
-└── README.md
+├── README.md
+└── LICENSE
