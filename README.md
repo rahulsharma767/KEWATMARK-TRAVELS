@@ -616,3 +616,94 @@ kewatmark-travels/
 ├── package-lock.json
 ├── README.md
 └── LICENSE
+© 2026 Kewatmark Travels
+Your Journey. Our Commitment.
+
+Flights • Hotels • Tours • Visa Assistance • Travel Planning
+
+📞 +91 77189 37742
+📧 kewatmarktravels@gmail.com
+📍 Santacruz West, Mumbai
+
+
+---
+
+# `LICENSE`
+
+Create a file named **exactly** `LICENSE` in the root of your repository:
+
+```text
+Copyright (c) 2026 Kewatmark Travels
+
+ALL RIGHTS RESERVED.
+
+This software, source code, website, user interface, UI/UX design,
+graphics, branding, animations, layouts, original content, and
+associated original assets are proprietary to Kewatmark Travels.
+
+No permission is granted to any person or organization to:
+
+1. Copy the source code.
+2. Fork this repository.
+3. Modify the source code.
+4. Distribute or redistribute the source code.
+5. Republish the website or source code.
+6. Create derivative works.
+7. Reuse the original UI/UX design.
+8. Reuse original graphics, branding, or assets.
+9. Sell or sublicense the project.
+10. Use the project or substantial portions of it commercially.
+11. Present the project or derivative work as their own.
+
+Any unauthorized reproduction, distribution, modification,
+commercial use, or creation of derivative works is prohibited
+without prior written permission from Kewatmark Travels.
+
+The project may be viewed for demonstration, evaluation,
+educational review, or portfolio purposes only.
+
+Third-party libraries, frameworks, fonts, images, icons, and
+dependencies included in or referenced by this project may be
+subject to their own separate licenses and copyright terms.
+Those third-party rights are not claimed by this license.
+
+Copyright © 2026 Kewatmark Travels.
+
+All Rights Reserved.
+.gitignore
+
+I also strongly recommend having this in the repository:
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local configuration
+*.local
