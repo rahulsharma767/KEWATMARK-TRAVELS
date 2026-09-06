@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-mist text-navy font-body antialiased;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent iOS Safari from auto-zooming when a form field is focused:
+   any field under 16px font-size triggers zoom-on-focus on iPhone. */
+@media (max-width: 640px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* Keep interactive controls comfortably tappable and free of the
+   300ms tap delay on touch devices. */
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Safe-area aware spacing for fixed elements on notched / gesture-bar
+   iPhones (Dynamic Island, home indicator) and similar Android devices. */
+.pb-safe {
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+.bottom-safe {
+  bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+
+::selection {
+  @apply bg-gold/30 text-navy;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eef3f7;
+}
+::-webkit-scrollbar-thumb {
+  background: #0B5FA5;
+  border-radius: 999px;
+}
+
+.container-x {
+  @apply mx-auto w-full max-w-[1280px] px-5 sm:px-8 lg:px-10;
+}
+
+.section-pad {
+  @apply py-16 md:py-24;
+}
+
+.eyebrow {
+  @apply text-gold-dark font-semibold tracking-wide text-sm;
+}
+
+.h2-display {
+  @apply font-display text-3xl md:text-[2.75rem] leading-[1.1] text-navy;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5 font-semibold text-navy shadow-gold transition-all duration-300 hover:bg-gold-light hover:-translate-y-0.5;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-3.5 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-white/20 hover:-translate-y-0.5;
+}
+
+.btn-navy {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-navy px-7 py-3.5 font-semibold text-white shadow-card transition-all duration-300 hover:bg-royal hover:-translate-y-0.5;
+}
+
+.card-surface {
+  @apply rounded-[26px] bg-white shadow-card;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
